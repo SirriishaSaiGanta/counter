@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #1e1e1e;
+}
+.heading{
+    text-shadow: 6px 4px 4px rgba(238, 255, 1, 0.805); /* Adds shadow */
+    color: white;
+    font-size: 1.6rem;
+    margin: 50px 50px;
+}
+hr{
+    width: 280px;
+    margin-top: 8px;
+    box-shadow: 4px 5px 3px rgb(255, 250, 1); /* Adds shadow */
+    margin-bottom: 10px;
+}
+.btn{
+    margin: 50px 50px;
+    display: flex; 
+    gap: 10px;
+}
+#button_dec{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+#button_inc{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+#button_clr{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+#button_dec:hover {
+    background-color: yellow;
+    box-shadow: 2px 5px 20px rgb(255, 250, 1); /* Adds shadow */
+
+}
+#button_inc:hover {
+    background-color: blue;
+    box-shadow: 2px 5px 20px rgb(0, 72, 255); /* Adds shadow */
+}
+#button_clr:hover {
+    background-color: red;
+    box-shadow: 2px 5px 20px rgb(255, 1, 1); /* Adds shadow */
+
+}
+@media screen and (max-width:500px) {
+    .btn{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #button_dec{
+        width: 300px;
+    }
+    #button_inc{
+        width: 300px;
+    }
+    #button_clr{
+        width: 300px;
+    }
+    .heading p{
+        font-size: 1.5rem;
+    }
+    hr{
+        width: 260px;
+    }
+}
+
+
